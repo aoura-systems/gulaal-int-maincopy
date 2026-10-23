@@ -98,18 +98,32 @@ export default function Footer() {
                             >
                                 Email
                             </div>
-                            <a
-                                href="mailto:contact@gulaal-international.ae"
-                                style={{
-                                    fontSize: "0.9375rem",
-                                    color: "rgba(0,0,0,0.7)",
-                                    transition: "color 0.2s",
-                                }}
-                                onMouseEnter={(e) => (e.currentTarget.style.color = "#000")}
-                                onMouseLeave={(e) => (e.currentTarget.style.color = "rgba(0,0,0,0.7)")}
-                            >
-                                contact@gulaal-international.ae
-                            </a>
+<div
+    style={{
+        fontSize: "0.8125rem",
+        fontWeight: 500,
+        color: "rgba(0,0,0,0.4)",
+        letterSpacing: "0.05em",
+        textTransform: "uppercase",
+        marginTop: "2rem",
+        marginBottom: "1rem",
+    }}
+>
+    Company Address
+</div>
+<div
+    style={{
+        fontSize: "0.9375rem",
+        color: "rgba(0,0,0,0.7)",
+        lineHeight: 1.6,
+    }}
+>
+    Office 201<br />
+    Building A2<br />
+    IFZA Business Park<br />
+    Dubai Silicon Oasis<br />
+    Dubai
+</div>
                         </div>
                     </div>
                 </div>
